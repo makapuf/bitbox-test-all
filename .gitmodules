@@ -1,0 +1,54 @@
+[submodule "bitbox"]
+	path = bitbox
+	url = https://github.com/makapuf/bitbox.git
+[submodule "bitbox-fire"]
+	path = bitbox-fire
+	url = https://github.com/makapuf/bitbox-fire.git
+[submodule "bitbox-polar"]
+	path = bitbox-polar
+	url = https://github.com/makapuf/bitbox-polar.git
+[submodule "bitbox-micromo"]
+	path = bitbox-micromo
+	url = https://github.com/makapuf/bitbox-micromo.git
+[submodule "bitbox-chiptracker"]
+	path = bitbox-chiptracker
+	url = https://github.com/pulkomandy/bitbox-chiptracker.git
+[submodule "bitbox-spectrum"]
+	path = bitbox-spectrum
+	url = https://github.com/makapuf/bitbox-spectrum.git
+[submodule "bitbox-bdash"]
+	path = bitbox-bdash
+	url = https://github.com/makapuf/bitbox-bdash.git
+[submodule "bitbox-0xFF"]
+	path = bitbox-0xFF
+	url = https://github.com/makapuf/bitbox-0xFF.git
+[submodule "bitbox-alterego"]
+	path = bitbox-alterego
+	url = https://github.com/makapuf/bitbox-alterego.git
+[submodule "bitboy"]
+	path = bitboy
+	url = https://github.com/makapuf/bitboy.git
+[submodule "bitbox-bitcaster"]
+	path = bitbox-bitcaster
+	url = https://github.com/makapuf/bitbox-bitcaster.git
+[submodule "bitbox-mariowatch"]
+	path = bitbox-mariowatch
+	url = https://github.com/makapuf/bitbox-mariowatch.git
+[submodule "bitbox-16"]
+	path = bitbox-16
+	url = https://github.com/lowagner/bitbox-16.git
+[submodule "bitbox-mmat"]
+	path = bitbox-mmat
+	url = https://github.com/lowagner/bitbox-mmat.git
+[submodule "bitbox-2048"]
+	path = bitbox-2048
+	url = https://github.com/makapuf/bitbox-2048.git
+[submodule "bitbox-tubeguy"]
+	path = bitbox-tubeguy
+	url = https://github.com/makapuf/bitbox-tubeguy.git
+[submodule "bitbox-rapidball"]
+	path = bitbox-rapidball
+	url = https://github.com/makapuf/bitbox-rapidball.git
+[submodule "bitbox-fmv"]
+	path = bitbox-fmv
+	url = https://github.com/makapuf/bitbox-fmv.git
