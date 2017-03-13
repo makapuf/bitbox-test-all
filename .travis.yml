@@ -4,11 +4,14 @@
   "language": "c",
   "before_script": [
     "sudo apt-get -qq update",
+    "pip install pillow",
+    "arm-none-eabi-gcc --version",
+    "gcc --version"
   ],
   "script": [
-    "make ubuntudeps",
-    "make",
-    "make test_allemu",
+    "sudo make ubuntudeps"
+    "make"
+    "make test_allemu"
   ],
   "env": "BITBOX=$TRAVIS_BUILD_DIR/bitbox",
   "group": "stable",
