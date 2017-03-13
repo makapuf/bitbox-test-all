@@ -4,12 +4,9 @@
   "language": "c",
   "before_script": [
     "sudo apt-get -qq update",
-    "pip install pillow",
-    "arm-none-eabi-gcc --version",
-    "gcc --version"
+    "sudo make ubuntudeps",
   ],
   "script": [
-    "sudo make ubuntudeps",
     "make",
     "make test_allemu"
   ],
