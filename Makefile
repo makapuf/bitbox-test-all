@@ -4,7 +4,7 @@ ALLCLEAN = $(patsubst %,%-clean,$(PROJECTS))
 export BITBOX = $(shell pwd)/bitbox
 
 .PHONY: $(PROJECTS)
-.PHONY: stable-clean $(ALLCLEAN)
+.PHONY: stable-clean $(ALLCLEAN) ubuntudeps haikudeps
 
 $(info $(PROJECTS))
 
@@ -33,3 +33,6 @@ haikudeps:
 ubuntudeps: 
 	apt install build-essential gcc-arm-embedded python libsdl1.2-dev 
     pip install pillow
+    arm-none-eabi-gcc --version
+    gcc --version
+

@@ -4,8 +4,6 @@
   "language": "c",
   "before_script": [
     "sudo apt-get -qq update",
-    "arm-none-eabi-gcc --version",
-    "gcc --version"
   ],
   "script": [
     "make ubuntudeps",
