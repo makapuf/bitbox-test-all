@@ -23,5 +23,5 @@ How to use
 Status
 ------
 
-https://travis-ci.org/makapuf/bitbox-test-all.svg?branch=master
+[![Build Status](https://travis-ci.org/makapuf/bitbox-test-all.svg?branch=master)](https://travis-ci.org/makapuf/bitbox-test-all)
 
