@@ -9,8 +9,8 @@
     "gcc --version"
   ],
   "script": [
-    "sudo make ubuntudeps"
-    "make"
+    "sudo make ubuntudeps",
+    "make",
     "make test_allemu"
   ],
   "env": "BITBOX=$TRAVIS_BUILD_DIR/bitbox",
