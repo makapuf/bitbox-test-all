@@ -4,7 +4,7 @@
   "language": "c",
   "before_script": [
     "sudo apt-get -qq update",
-    "sudo make ubuntudeps",
+    "sudo -H make ubuntudeps",
   ],
   "script": [
     "make test_allemu"
