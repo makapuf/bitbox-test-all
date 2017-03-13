@@ -31,4 +31,5 @@ haikudeps:
 	echo "Remember to run \"setarch x86\" before compiling!"
 
 ubuntudeps: 
-	apt install build-essential gcc-arm-embedded python  
+	apt install build-essential gcc-arm-embedded python libsdl1.2-dev 
+    pip install pillow
