@@ -10,9 +10,6 @@
 [submodule "bitbox-micromo"]
 	path = bitbox-micromo
 	url = https://github.com/makapuf/bitbox-micromo.git
-[submodule "bitbox-chiptracker"]
-	path = bitbox-chiptracker
-	url = https://github.com/makapuf/bitbox-chiptracker.git
 [submodule "bitbox-spectrum"]
 	path = bitbox-spectrum
 	url = https://github.com/makapuf/bitbox-spectrum.git
