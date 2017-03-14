@@ -4,8 +4,7 @@
   "language": "c",
   "before_script": [
     "sudo apt-get -qq update",
-    "sudo -H make ubuntudeps",
-    "pip install Pillow"
+    "make ubuntudeps",
   ],
   "script": [
     "make test_allemu"
