@@ -49,6 +49,3 @@
 [submodule "bitbox-fmv"]
 	path = bitbox-fmv
 	url = https://github.com/makapuf/bitbox-fmv.git
-[submodule "bitbox-chiptracker"]
-	path = bitbox-chiptracker
-	url = https://github.com/makapuf/bitbox-chiptracker.git
