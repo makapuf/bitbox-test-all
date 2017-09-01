@@ -1,4 +1,4 @@
-PROJECTS = $(shell git submodule status | cut -d " " -f 3) 
+PROJECTS = $(shell git submodule status | cut -c 43- | cut -d " " -f 1) 
 ALLCLEAN = $(patsubst %,%-clean,$(PROJECTS))
 
 export BITBOX = $(shell pwd)/bitbox

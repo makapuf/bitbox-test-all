@@ -34,9 +34,6 @@
 [submodule "bitbox-16"]
 	path = bitbox-16
 	url = https://github.com/lowagner/bitbox-16.git
-[submodule "bitbox-mmat"]
-	path = bitbox-mmat
-	url = https://github.com/lowagner/bitbox-mmat.git
 [submodule "bitbox-2048"]
 	path = bitbox-2048
 	url = https://github.com/makapuf/bitbox-2048.git
