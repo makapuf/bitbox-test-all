@@ -32,7 +32,7 @@ haikudeps:
 
 ubuntudeps: 
 	sudo apt install build-essential gcc-arm-none-eabi python libsdl1.2-dev 
-	pip install pillow
+	sudo pip install pillow
 	arm-none-eabi-gcc --version
 	gcc --version
 
