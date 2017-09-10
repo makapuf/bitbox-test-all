@@ -31,8 +31,8 @@ haikudeps:
 	echo "Remember to run \"setarch x86\" before compiling!"
 
 ubuntudeps: 
-	sudo apt install build-essential gcc-arm-none-eabi python libsdl1.2-dev 
-	sudo pip install pillow
+	sudo apt install build-essential gcc-arm-none-eabi python libsdl1.2-dev sox
+	pip install pillow
 	arm-none-eabi-gcc --version
 	gcc --version
 
